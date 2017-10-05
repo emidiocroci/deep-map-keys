@@ -1,5 +1,4 @@
 /coverage/
-/src/
 /typings/
 /lib/**/*.test.*
 /.editorconfig

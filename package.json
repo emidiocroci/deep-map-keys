@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "prepublish": "npm run build",
+    "preinstall": "npm run build",
     "build:compile": "tsc",
     "build:remove": "rimraf lib",
     "build": "npm run build:remove && npm run build:compile",
